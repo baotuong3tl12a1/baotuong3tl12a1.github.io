@@ -1,0 +1,62 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc; /* màu be */
+            padding: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #2e7d32;
+            margin-bottom: 40px;
+        }
+
+/* Khung bảng báo tường */
+        .table-box {
+            background-color: #ffffff;
+            border: 3px dashed #81c784;
+            border-radius: 25px;
+            padding: 30px;
+            margin-bottom: 30px;
+            position: relative;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+        }
+
+/* Họa tiết góc */
+        .corner {
+            position: absolute;
+            font-size: 26px;
+            color: #66bb6a;
+            opacity: 0.7;
+        }
+
+        .top-left { top: 12px; left: 16px; }
+        .top-right { top: 12px; right: 16px; }
+        .bottom-left { bottom: 12px; left: 16px; }
+        .bottom-right { bottom: 12px; right: 16px; }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #c8e6c9;
+            color: #1b5e20;
+            padding: 12px;
+            text-align: left;
+            border-radius: 10px;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .icon {
+            margin-right: 8px;
+            color: #388e3c;
+        }
